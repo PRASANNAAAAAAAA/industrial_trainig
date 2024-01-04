@@ -1,0 +1,392 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+.a{
+    height: 7600px;
+    padding: 50px;
+}
+.a1{
+    height: 700px;
+    border: 1px solid white;
+    background-image: url(../images/doc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.a11{
+    height: 230px;
+    width: 360px;
+    border-radius: 30px;
+    background-color: white;
+    margin-top: 250px;
+    margin-left: 200px;
+    box-shadow: 2px 2px 3px grey;
+    padding: 10px;
+   
+}
+#a12{
+    color: gray;
+}
+span{
+    font-size: 15px;
+}
+#a13{
+    height: 30px;
+    border-radius: 15px;
+    background-color: blue;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.a2{
+    height: 200px;
+    background-color: blue;
+}
+#a21{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 35px;
+}
+#a22{
+    background-color: white;
+    border-radius: 15px;
+    height: 30px;
+    width: 150px;
+    margin-left: 500px;
+}
+#a23{
+    background-color: gray;
+    border-radius: 15px;
+    height: 30px;
+    width: 150px;
+    margin-left: 30px;
+}
+.a3{
+    height: 600px;
+    border: 1px solid white;
+    padding-top: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+#a31{
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 3px grey;
+    float: right;
+}
+#a32{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 3px grey;
+}
+#a33{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: white;
+    float: left;
+    margin-top: 100px;
+    margin-left: 30px;
+    box-shadow: 2px 2px 3px grey;
+    text-align: center;
+}
+#a34{
+    margin-top: 60px;
+}
+.a4{
+    height: 300px;
+    border: 1px solid blue;
+    background-color: blue;
+}
+#a41{
+     color: white; 
+    margin-left: 650px;
+    margin-top: 150px;
+}
+#a42{
+    color: white; 
+    margin-left: 610px;
+}
+#a43{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.a5{
+    height: 500px;
+    background-color: blue;
+}
+.a51{
+    height: 500px;
+    width: 300px;
+    float: left;
+    margin-right: 120px;
+    margin-left: 100px;
+}
+.a52{
+    height: 500px;
+    width: 300px;
+    float: left;
+    margin-right: 120px;
+}
+.a53{
+    height: 500px;
+    width: 300px;
+    float: left;
+    margin-right: 100px;
+}
+#a54{
+    height: 150px;
+    width: 150px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 3px grey;
+    margin-left: 50px;
+}
+#a55{
+    height: 150px;
+    width: 150px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 3px grey;
+    margin-left: 50px;
+    margin-top: 75px;
+}
+#a56{
+    color: white;
+    margin-left: 100px;
+}
+#a57{
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.a6{
+    height: 900px;
+    padding: 50px;
+}
+.a61{
+    height: 400px;
+    width: 300px;
+    float: left;
+    margin: 50px;
+}
+#a62{
+    height: 200px;
+    width: 250px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 3px grey; 
+   margin-left: 20px;
+}
+#a63{
+    color: gray;
+    margin-left: 60px;
+}
+#a64{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+#a65{
+    height: 50px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+.a7{
+    height: 700px;
+    padding: 50px;
+}
+#a73{
+    height: 700px;
+    width: 500px;
+    float: left;
+}
+#a71{
+    height: 600px;
+    width: 500px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 3px grey; 
+}
+#a72{
+    height: 50px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 30PX;
+}
+#a74{
+    height: 700px;
+    width: 600px;
+    float: left;
+    margin-left: 50px;
+}
+#a75{
+    color: gray;
+    margin-left: 100px;
+    display: inline;
+}
+#a76{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    font-size: x-large;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+#a77{
+    height: 250px;
+    width: 450px;
+    background-color: rgb(156, 149, 149);
+    margin: 50px;
+}
+#a78{
+    color: gray;
+    margin-left: 100px;
+    display: inline;
+    margin-bottom: 30px;
+}  
+#a79{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    font-size: x-large;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#a710{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    font-size: x-large;
+    margin-left: 220px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.a8{
+    height: 1600px;
+    background-color: blue;
+    padding: 50px;
+}
+#a81{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+#a82{
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+#a83{
+    height: 600px;
+    width: 300px;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: 2px 2px 3px grey;
+    float: left;
+    margin: 50px;
+}
+#a84{
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 3px grey;
+    margin: 25PX;
+}
+#a85{
+    color: grey;
+    margin-left: 25PX;
+    margin-bottom: 10PX;
+}
+#a86{
+    color: blue;
+    margin-left: 25PX;
+    margin-bottom: 10PX;
+}
+#a87{
+    color: grey;
+    margin: 25PX;
+    font-size: 20px;
+}
+#a88{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin: 10px;
+}
+.a9{
+    height: 800px;
+    background-color: grey;
+    padding: 50px;
+}
+#a91{
+    height: 300px;
+    width: 500px ;
+    border-radius: 40px;
+    background-color: white;
+    float: left;
+    margin: 50px;
+    background-image: url(../images/quote.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#a92{
+    margin: 75px;
+}
+#a93{
+    color: blue;
+    margin-left: 100px;
+}
+.a10{
+    height: 600px;
+    padding: 50px;
+}
+#a101{
+    height: 550px;
+    width: 400px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 3px grey;
+    float: left;
+}
+#a102{
+    height: 600px;
+    width: 300px;
+    float: left;
+    margin-left: 100px;
+    padding: 50px;
+}
+#a103{
+    margin: 10px;
+}
+#a104{
+    margin: 10px;
+    font-size: 20px;
+}
+#a103{
+    margin: 10px;
+}
+#a105{
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+}

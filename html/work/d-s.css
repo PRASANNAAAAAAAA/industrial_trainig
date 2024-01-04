@@ -1,0 +1,107 @@
+.main{
+    height: 500px; width:600px;background-color: aqua;
+}
+.d1{
+    height: 100px; width:600px;background-color: cadetblue;
+}
+.d1-1{
+    height: 100px; width:100px;background-color: chocolate; float: left;
+}
+.d1-2{
+    height: 100px; width:400px;background-color: navy; float: left;
+}
+.d1-3{
+    height: 100px; width:100px;background-color: lawngreen; float: right;
+}
+.d1-3-1{
+    height: 50px; width:100px;background-color: green;
+}
+.d1-3-2{
+    height: 50px; width:100px;background-color: greenyellow;
+}
+.d1-3-2-1{
+    height: 50px; width:50px;background-color: peru; float: left;
+}
+.d1-3-2-2{
+    height: 50px; width:50px;background-color: palegreen; float: right;
+}
+.d2{
+    height: 400px; width:600px;background-color: olive;
+}
+.d2-1{
+    height:400px; width:100px;background-color: pink; float: left;
+}
+.d2-1-1{
+    height: 300px; width:100px;background-color:purple ;
+}
+.d2-1-2{
+
+    height: 100px; width:100px;background-color:palevioletred ;
+}
+.d2-1-2-1{
+    height: 100px; width:50px;background-color:brown; float: left;
+}
+.d2-1-2-2{
+    height: 100px; width:50px;background-color:black; float: right;
+}
+.d2-2{
+    height: 400px; width:500px;background-color:gray; float: right;
+}
+.d2-2-1{
+    height: 100px; width:500px;background-color:gold ;
+}
+.d2-2-2{
+    height: 300px; width:500px;background-color:silver ;
+}
+.d2-2-2-1{
+    height: 300px; width:100px;background-color:rebeccapurple;float: left;
+}
+.d2-2-2-1-1{
+    height: 200px; width:50px;background-color:red;float: left;
+}
+.d2-2-2-1-2{
+    height: 200px; width:50px;background-color:green;float: right;
+}
+.d2-2-2-2{
+    height: 300px; width:100px;background-color:palegreen;float: left;
+}
+.d2-2-2-3{
+    height: 300px; width:300px;background-color:rebeccapurple;float: right;
+}
+.d2-2-2-3-1{
+    height:100px; width:300px;background-color:lightcoral; float: right;
+}
+.d2-2-2-3-2{
+    height: 200px; width:100px;background-color:orange;float: left;
+}
+.d2-2-2-3-2-1{
+    height: 100px; width: 100px; background-color: lawngreen;
+}
+.d2-2-2-3-2-2{
+    height: 100px; width: 100px; background-color: paleturquoise;
+}
+.d2-2-2-3-2-2-1{
+    height: 100px; width: 50px; background-color: salmon; float: left;
+}
+.d2-2-2-3-2-2-2{
+    height: 100px; width: 50px; background-color: seagreen; float: right;
+}
+.d2-2-2-3-3{
+    height: 200px; width:100px;background-color:blue;float: left;
+}
+.d2-2-2-3-4{
+    height: 200px; width:100px;background-color:blueviolet;float: right;
+}
+.d2-2-2-3-4-1{
+    height: 100px; width: 100px; background-color: lawngreen;
+}
+.d2-2-2-4-4-2{
+    height: 100px; width: 100px; background-color: paleturquoise;
+}
+.d2-2-2-4-2-1{
+  
+    height: 100px; width: 50px; background-color: salmon; float: left;
+}
+.d2-2-2-4-2-2{
+    height: 100px; width: 50px; background-color: seagreen; float: right;
+}

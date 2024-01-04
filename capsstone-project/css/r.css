@@ -1,0 +1,127 @@
+.a{
+    height: 800px;
+    width: 600px;
+    border: 1px solid black;
+    background: linear-gradient(to right,rgb(34, 33, 33) 0%,rgb(56, 54, 54) 35%,white 30%,white 100%);
+}
+.b
+{
+    height: 700px;
+    width: 200px;
+    float: left;
+}
+.c{
+    height: 900px;
+    width: 400px;
+    float: left;
+}
+.d{
+    height: 190px;
+    width: 150px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 5px;
+
+}
+.e{
+    height: 600px;
+    width: 180px;
+    margin-top: 30px;
+    margin-left: 25px;
+}.f{
+    height: 100px;
+    width: 425px;
+    background-color: coral;
+    margin-top: 93px;
+    position: relative;
+    right:  24px;
+}
+.h2{
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.p{
+    margin-bottom: 15px;
+    margin-top: 1px;
+    text-align: left;
+    margin-left: 40px;
+}
+.e1{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 213, 98);
+    float: left;
+    
+}
+.e2{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 213, 98);
+    float: left;
+    margin-top: 5px;
+}
+.e3{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 213, 98);
+    float: left;
+    margin-top: 5px;
+}
+.e4{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 213, 98);
+    float: left;
+    margin-top: 5px;
+}
+.p1{
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.g{
+    height: 600px;
+    width: 360px;
+    margin-left: 30px;
+    margin-top: 55px;
+    text-align: left;
+    
+}
+.h3{
+    margin-top: 10px;
+    margin-left: 0px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.j{
+    height: 500px;
+    width: 400px;
+    float: left;
+    border: 1px solid black;
+}
+h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: underline;
+}.p2{
+    margin: 0px;
+}
+h5{
+    color: white;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+.p3{
+    color: white;
+    text-align: left;
+    font-size: 13px;
+    margin-top: 5px;
+    
+}

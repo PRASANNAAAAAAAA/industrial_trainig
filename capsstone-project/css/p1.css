@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+.a{
+    height: 1400px;
+    width: 1200px;
+}
+.b{
+    height: 500px;
+    width: 1150px;
+    background-color: rgb(170, 166, 166);
+    padding-top: 10px;
+}
+.c{
+    height: 150px;
+    width: 1150px;
+    background-color: gray;
+}
+.c1{
+    height: 150px;
+    width: 1150px;
+    background-color: gray;
+}
+.d{
+    height: 300px;
+    width: 1150px;
+    background-color: rgb(170, 166, 166);
+}
+#z1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#z2{
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: blue;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.b1{
+    height: 300px;
+    width: 350px;
+    box-shadow: 2px 2px 3px black;
+    float: left;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.b2{
+    height: 300px;
+    width: 350px;
+    box-shadow: 2px 2px 3px black;
+    float: left;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.c2{
+    height: 300px;
+    width: 350px;
+    box-shadow: 2px 2px 3px black;
+    float: left;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.c3{
+    height: 300px;
+    width: 350px;
+    box-shadow: 2px 2px 3px black;
+    float: left;
+    background-color: white;
+    margin-left: 50px;
+}
+#z3{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    border: 1px solid purple;
+    background-color: orchid;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+#z4{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    border: 1px solid purple;
+    background-color: cadetblue;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+#z5{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    border: 1px solid purple;
+    background-color: blueviolet;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+#z6{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    border: 1px solid purple;
+    background-color: rgb(224, 25, 25);
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+#z7{
+    color: grey;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#z8{
+    margin-left: 50px;
+}

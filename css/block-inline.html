@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>block-inline</title>
+        <style>
+            p{
+                border:1px solid rgb(15, 171, 179);
+                display:inline
+            }
+            span{
+                border:1px solid red;
+                display:block;
+            }
+            .a{
+                height:300px;
+                width:300px;
+                border:2px solid rgb(28, 28, 166);
+                float:left;
+                visibility:hidden;
+                /it only hides the content but effects the output/
+            }
+            .b{
+                height:300px;
+                width:300px;
+                border:2px solid rgb(11, 42, 116);
+                float:left
+            }
+            .c{
+                height:300px;
+                width:300px;
+                border:2px solid rgb(20, 57, 167);
+                float:left;
+                display:none;
+                /it will be totally removed from the output and doesnt effect the output/
+            }
+        </style>
+    </head>
+    <body>
+        <center><h1>Display properties in CSS</h1><hr>
+            <h4>block_inline-This is used to change inline to block element and block to inline element</h4>
+        </center><hr>
+        <P>This is a block level element</P>
+        <span>This is an inline element</span>
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+    </body>
+</html>
