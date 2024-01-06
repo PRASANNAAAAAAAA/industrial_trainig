@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+.a{
+    height: 880px;
+    background-color: rgb(184, 224, 229);
+}
+.b{
+    height: 60px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.c{
+    height: 800px;
+}
+.d{
+    height: 800px;
+    width: 400px;
+    padding: 50px;
+    float: left;
+}
+#l1{
+    font-size: 20px;
+}
+input{
+    height: 30px;
+    width: 400px;
+}
+#b1{
+    height: 40px;
+    width: 400px;
+    background-color: blue;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+#b2{
+    height: 40px;
+    width: 400px;
+    background-color: gray;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+hr{
+    width: 180px;
+    float: left;
+}
+.q{
+    margin-top: 12px;
+    color: grey;
+    text-align: center;
+}
+.e{
+    height: 800px;
+    width: 900px;
+    float: right;
+}
+.f{
+    height: 300px;
+    width: 800px;
+    background-color: blue;
+    margin: 50px ;
+}
+.g{
+    height: 350px;
+    width: 800px;
+    margin: 0px 50px 50px 50px ;
+    padding-top: 10px ;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.g1{
+    height: 250px;
+    width: 180px;
+    background-color: grey;
+    margin-right:20px ;
+    float: left;
+    border-radius: 15px;
+}
+.d1{
+    height: 300px;
+    width: 500px;
+    float: left;
+}
+.d2{
+    height: 300px;
+    width: 300px;
+    float: right;
+}
+#h{
+    color: white;
+    font-size: 30px;
+    margin: 30px 30px 20px 30px;
+}
+#p{
+    color: white;
+    font-size: 25px;
+    margin: 30px 30px 20px 30px;
+}
+#img1{
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#p1{
+    color: white;
+    font-size: 20px;
+    margin-left: 60px;
+}
+#h1{
+    margin-left: 30px;
+    font-size: 20px;
+}
+#h2{
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+#img2{
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+}
+#p2{
+    color: white;
+    margin: 15px 20px 15px 25px;
+}
