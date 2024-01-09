@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>task</title>
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+            .a{
+                height: 640px;
+                margin: 50px 20px;
+            }
+            .b{
+                height: 640px;
+                width: 400px;
+                float: left;
+            }
+            .c{
+                height: 640px;
+                width: 700px;
+                float: right;
+            }
+            img{
+                height: 400px;
+                width: 400px;
+                margin: 50px 40px 5px ;
+            }
+            h1{
+                margin-left: 40px;
+                margin-bottom: 5px;
+            }
+            p{
+                color: grey;
+                margin-left: 40px;
+                margin-bottom: 2px;
+            }
+            form{
+                margin-top: 30px;
+            }
+            #i1{
+                position: absolute;
+                left: 775px;
+                top: 88px;
+                color: gray;
+            }
+            #t1{
+                height: 25px;
+                width: 250px;
+                z-index: 1;
+            }
+            #i2{
+                position: absolute;
+                left: 1185px;
+                top: 88px;
+                color: gray;
+            }
+            #t2{
+                height: 25px;
+                width: 268px;
+                margin-left: 150px;
+                z-index: 1;
+            }
+            #i3{
+                position: absolute;
+                left: 775px;
+                top: 150px;
+                color: gray;
+                z-index: 2;
+            }
+            #t3{
+                position: absolute;
+                left: 600px;
+                height: 25px;
+                width: 678px;
+                margin-left: 165px;
+                z-index: 1;
+            }
+            #t4{
+                height: 28px;
+                width: 100px;
+            }
+            #t5{
+                height: 25px;
+                width: 570px;
+            }
+            #i4{
+                position: absolute;
+                left: 775px;
+                top: 206px;
+                color: gray;
+            }
+            #i5{
+                position: absolute;
+                left: 775px;
+                top: 290px;
+                color: gray;
+                z-index: 2;
+            }
+            #i6{
+                position: absolute;
+                left: 775px;
+                top: 345px;
+                color: gray;
+                z-index: 2;
+            }
+            #i7{
+                position: absolute;
+                left: 1185px;
+                top: 345px;
+                color: gray;
+                z-index: 2;
+            }
+            #b1{
+                height: 25px;
+                width: 685px;
+                background-color: teal;
+                color: white;
+                text-align: center;
+                font-weight: bold;
+            }
+            hr{
+                width: 280px;
+                float: left;
+            }
+            .e{
+                margin-top: 20px;
+                color: gray;
+                text-align: center;
+            }
+            #b2{
+                height: 25px;
+                width: 685px;
+                background-color: blue;
+                color: white;
+                text-align: center;
+                font-weight: bold;
+                z-index: 1;
+            }
+            #b3{
+                height: 25px;
+                width: 685px;
+                background-color: slateblue;
+                color: white;
+                text-align: center;
+                font-weight: bold;
+                z-index: 1;
+            }
+            span{
+                color: grey;
+                font-size: 20px;
+                margin-left: 240px;
+            }
+            a{
+                color: blue;
+                text-decoration: none;
+                font-size: 20px;
+                margin-left: 10px;
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="a">
+            <div class="b">
+                <img src="images/phone-man.jpg" alt="pic">
+                <h1>Create an Account</h1>
+                <p>Create a minimal registration page using Bootstrap 4 </p>
+                <p>HTML form elements</p>
+                <p>Snippet By <u>Bootstrapious</u></p>
+            </div>
+            <div class="c">
+                <form>
+                    <i id="i1" class="fa-solid fa-user"></i>
+                    <input id="t1" type="text"  placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;firstname">
+                    <i id="i2" class="fa-solid fa-user"></i>
+                    <input id="t2" type="text"  placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;lastname">
+                    <i id="i3" class="fa-solid fa-envelope-circle-check"></i>
+                    <br><br><br><input id="t3" type="email"  placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Email Address">
+                    <br><br><br>
+                    <i id="i4" class="fa-solid fa-phone"></i>
+                    <select id="t4">
+                        <option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+12</option>
+                        <option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+13</option>
+                        <option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+21</option>
+                        <option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+71</option>
+                        <option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+89</option>
+                        <option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91</option>
+                    </select>
+                    <input id="t5" type="number" placeholder="Phone Number">
+                    <i id="i5" class="fa-brands fa-black-tie"></i>
+                    <br><br><br><br><input id="t3" type="text"  placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Choose your job">
+                    <i id="i6" class="fa-solid fa-lock"></i>
+                    <br><br><br><input id="t1" type="password"  placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;password">
+                    <i id="i7" class="fa-solid fa-lock"></i>
+                    <input id="t2" type="password"  placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;confirm password">
+                </form>
+                <br><button id="b1">Create your account</button>
+                <br><br><div class="e">
+                    <hr>or<hr style="float: right;">
+                </div>
+                <br><br><button id="b2"><i id="i8" class="fa-brands fa-facebook-f"></i>&nbsp;&nbsp; Continue with Facebook</button>
+                <br><br><br><button id="b3"><i class="fa-brands fa-twitter"></i>&nbsp;&nbsp; Continue with Twitter</button>
+                <br><br><span>Already Registered?</span>
+                <a href="">Login</a>
+            </div>
+        </div>
+    </body>
+</html>
