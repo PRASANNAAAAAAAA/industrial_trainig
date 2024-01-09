@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <title>Animaions in CSS</title>
+</head>
+<style>
+    .a{
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+        background-color: lightcoral;
+        border: 2px solid black;
+        margin: 100px;
+        float: left;
+        animation-name: first;
+        animation-duration: 7s;
+        animation-delay: -3s;
+    }
+    @keyframes first{
+        form{
+            background-color: purple;
+            width: 300px;
+        }
+        to{
+            background-color: palevioletred;
+            width: 300px;
+            transform: rotate(180deg);
+        }
+    }
+    .b{
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+        background-color: lightcoral;
+        border: 2px solid black;
+        position: relative;
+        margin: 100px;
+        float: left;
+        animation-name: second;
+        animation-duration: 4s;
+        animation-iteration-count: 4;
+        animation-delay: 2s;
+        animation-direction: reverse;
+        animation-timing-function: ease;
+        animation-fill-mode:both;
+        /*animation: second 3s ease-in 3 2s reverse; (name,duration,timming function,iteration-count,delay,direction)*/
+    }
+    @keyframes second{
+        0%{
+            background-color: lightseagreen;top: 0px;left: 0px;
+        }
+        25%{
+            background-color: seagreen;top: 0px;left: 600px;
+        }
+        50%{
+            background-color: lightsteelblue;top: 400px;left: 600px;
+        }
+        75%{
+            background-color: steelblue;top: 400px;left: 0px;
+        }
+        100%{
+            background-color: purple;top: 0px;left: 0px;
+        }
+    }
+</style>
+<body>
+    <center>
+        <h1>Animations in CSS</h1><hr>
+    </center>
+    <div class="a"></div>
+    <div class="b"></div>
+</body>

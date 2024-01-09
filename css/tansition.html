@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Transitions in html
+        </title>
+        <style>
+            .d1{
+                height: 200px;
+                width: 200px;
+                background-color: khaki;
+                border: 2px solid black;
+                float: left;
+                margin: 60px;
+                transition: all 3s;
+            }
+            .d1:hover{
+                background-color: purple;
+                border-radius: 100%;
+                margin-top: 50px;
+                transform: rotate(180deg);
+                width: 500px;
+            }
+            .d2{
+                height: 200px;
+                width: 200px;
+                background-color: khaki;
+                border: 2px solid black;
+                float: left;
+                margin: 60px;
+                transition-property: width;
+                transition-duration: 8s;
+                transition-delay: 2s;
+                transition-timing-function: ease-in-out;
+            }
+            .d2:hover{
+                width: 700px;
+            }
+            .d3{
+                height: 200px;
+                width: 200px;
+                background-color: khaki;
+                border: 2px solid black;
+                float: left;
+                margin: 60px;
+                transition: all 4s linear 2s;
+            }
+            .d3:hover{
+                background-color: rgb(214, 79, 214);
+                border-radius: 100%;
+                margin-top: 50px;
+                transform: rotate(360deg);
+                width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>Transitions in CSS</h1> <hr>
+        </center>
+        <div class="d1"></div>
+        <div class="d2"></div>
+        <div class="d3"></div>
+    </body>
+</html>
