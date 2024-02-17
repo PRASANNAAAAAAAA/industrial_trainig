@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods</title>
+</head>
+<body>
+    <center><h1>String Methods In JS</h1></center>
+    <script>
+        function my(str_name){
+            document.write('<br>'+str_name+'<br><br>')
+        }
+        let str='drive ready batch';
+        let str1='mern batch';
+        let str2='new batch';
+        //original value
+        my('Original value='+str);
+        //length
+        my('String length='+str.length);
+        //to find value at particular position
+        my('charAt='+str.charAt(3));
+        //to find index of particular value
+        my('Index of='+str.indexOf('y'));
+        my('Index of-2nd way='+str.indexOf('ready'));
+        //last index
+        my('last index of='+str.lastIndexOf('e'));
+        //to uppercase
+        my('uppercase='+str.toUpperCase());
+        //to lowecase
+        my('lowercase='+str.toLowerCase());
+        //to add multiple strings
+        my("concatenation of string="+str.concat(str1));
+        my("concatenation of string="+str.concat(str1,str2));
+        //removing white spaces
+        my('trim of string='+str.trim());
+        //converting string into array
+        document.write('array='+str1.split("")+'<br><br>');
+        let s='uday-nani-prasad-shasi';
+        document.write('array='+s.split("-")+'<br>');
+        //return boolean values
+        my('startswith of string='+str.startsWith('d'));
+        my('endswith of string='+str.endsWith('h'));
+        //slice method allows +ve and -ve index values
+        my('slice of string='+str.slice(0,5));
+        my('slice of string='+str.slice(-2));
+        my('slice of string='+str.slice(-5));
+        my('slice of string='+str.slice(-4,-2));
+        //substring method
+        my('substring of string='+str.substring(2,4));
+        //substr method
+        my('substr of string='+str.substr(2,5));
+        //includes method
+        my('includes of String='+str.includes('drive'));
+        //repeat method
+        my('repeat of string='+str.repeat(3));
+        //replace method
+        my('repeate of string='+str.replace('batch','course'));
+    </script>
+</body>
+</html>
