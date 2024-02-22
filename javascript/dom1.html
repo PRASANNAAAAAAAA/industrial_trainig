@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    <h1> Colleges</h1>
+    <ul>
+        <li>AEC</li>
+        <li>ACET</li>
+        <li>ACOE</li>
+    </ul>
+    <script>
+        const Tagnm=document.getElementsByTagName('li')
+        //innerHTML-used to change the text along with the particular tag
+        //innerText-used to change only the text
+        Tagnm[0].innerHTML='<b>Aditya Engineering college</b>'
+        Tagnm[1].innerHTML='<b>Aditya college of Engineering & Technology</b>'
+        Tagnm[2].innerHTML='<b>Aditya college of Engineering</b> '
+        // // Tagnm[0].style.fontWeight='bold'
+        // Tagnm[1].style.fontWeight='bold'
+        // Tagnm[2].style.fontWeight='bold'
+        Tagnm[0].style.backgroundColor='pink'
+        Tagnm[1].style.border='2px solid red'
+        Tagnm[2].style.fontFamily='Arial'
+
+        console.log(Tagnm)
+
+    </script>
+</body>
+</html>

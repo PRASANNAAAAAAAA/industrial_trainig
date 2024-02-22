@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event handler</title>
+</head>
+<body>
+    <button onclick="sample()">Click Here</button>
+    <button onmouseover="alert('heloooo')">hover it</button><br>
+    <b id="s"></b>
+    <script>
+        function sample(){
+            document.body.style.backgroundColor="slateblue";
+            document.getElementById("s").innerText="this is a onclick event handler in javascript which is a inline event handler"
+        }
+    </script>
+</body>
+</html>

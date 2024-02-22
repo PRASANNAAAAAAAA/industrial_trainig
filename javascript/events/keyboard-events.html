@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyboard Events</title>
+</head>
+<body>
+    <form>
+        <p id="p-id"></p>
+        <label>keyup</label>
+        <input type="text" onkeyup="getbg(this.value)"><br>
+        <label>keydown</label>
+        <input type="text" onkeydown="getbg(this.value)"><br>
+        <label>keypress</label>
+        <input type="text" onkeypress="getbg(this.value)">
+    </form>
+    <script>
+        function getbg(value){
+            document.getElementById('p-id').innerHTML=value
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    <h1 id="e_id">Heading</h1>
+    <span class="sp">This is first span</span>
+    <span class="sp">This is second span</span>
+    <script>
+        //to print entire document
+        console.log(document)
+        console.log(document.head)
+        console.log(document.body)
+        //by using id
+        const Byid=document.getElementById('e_id')
+        Byid.style.color='red'
+        Byid.style.fontSize='30px'
+        console.log(Byid)
+
+        //by using className
+        const ClsID=document.getElementsByClassName('sp');
+        ClsID[1].style.color='blue'
+        console.log(ClsID)
+    </script>
+</body>
+</html>

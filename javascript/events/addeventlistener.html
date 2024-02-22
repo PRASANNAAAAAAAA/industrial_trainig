@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddEventListener</title>
+</head>
+<body>
+    <button id="b">click here</button><br>
+    <button id="c">click here</button>
+    <script>
+        let btn=document.getElementById('b');
+        btn.addEventListener('click',change)
+        function change(){
+            document.body.style.backgroundColor='lightblue'
+        }
+        let btn1=document.getElementById('c');
+        btn1.addEventListener('dblclick',function(){
+            alert('this is an anonymous function');
+        });
+    </script>
+</body>
+</html>

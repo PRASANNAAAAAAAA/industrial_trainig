@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <p>this is para1</p>
+    <p>this is para2</p>
+    <p>this is para3</p>
+    <h2 id="head">by using id</h2>
+    <h2 id="head">by using id</h2>
+    <h3 class="new">by using class</h3>
+    <h3 class="new">by using class</h3>
+    <span>by using tagname</span><br>
+    <span>by using tagname</span><br>
+    <a id="my_anchor">click here</a><br><br>
+    <span id="s"></span>
+    <script>
+        //query selector(#id, class, tag)
+        const qs=document.querySelector("p")
+        //console.log(qs)
+        qs.style.backgroundColor="red";//first one only applicable
+        //query selector all
+        //by using id
+        let heads=document.querySelectorAll("#head");
+        console.log(heads)
+        heads[0].style.backgroundColor="red";
+        heads[1].style.backgroundColor="red";
+        //by using class nane
+        let local=document.querySelectorAll(".new");
+        local[0].style.fontSize="60px";
+        local[1].style.fontSize="60px";
+        //by using tag name
+        let element=document.querySelectorAll("span");
+        element[0].style.fontSize="100px";
+        element[1].style.fontSize="100px";
+        let h=document.querySelectorAll("#head,.new, span");
+        console.log(h)
+        for(let i=0;i<h.length;i++){
+            h[i].style.fontSize="50px";
+        }
+        //set attribute
+        const myanch= document.getElementById('my_anchor')
+        myanch.setAttribute("href","https://youtube.com")
+        myanch.setAttribute("target","_blank")
+        //create element
+        const NewBtn=document.createElement("button");
+        NewBtn.setAttribute('id','btn_id');
+        const NewDiv=document.createElement("div");
+        NewBtn.innerText="click me"
+        NewDiv.innerHTML="<h1> This is a new division</h1>"
+        NewDiv.style.cssText=  `height:200px;
+                                width:200px;
+                                color:red;
+                                padding:5px;
+                                background-color:lightblue;
+                                border-radius:50px;
+                                border:2px solid blue`;
+        //append element
+        const bdy=document.body
+        console.log(bdy)
+        bdy.appendChild(NewBtn)
+        bdy.appendChild(NewDiv)
+        //event listener
+        const MyBtn=document.getElementById('btn_id');
+        MyBtn.addEventListener("mouseover",Myfun1);
+        MyBtn.addEventListener("mouseout",Myfun2);
+        MyBtn.addEventListener("click",Myfun3);
+        function Myfun1(){
+            NewDiv.style.backgroundColor="green"
+        }
+        function Myfun2(){
+            bdy.style.backgroundColor="cyan"
+        }
+        function Myfun3(){
+            const d=document.getElementById('s');
+            d.innerHTML="Today date is:"+Date()
+        }
+    </script>
+</body>
+</html>
