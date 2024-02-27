@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity1</title>
+</head>
+<body>
+    <center><h1>String Methods In JS</h1></center>
+    <script>
+        function myfun(str_name){
+            document.write('<br>'+str_name+'<br>')
+        }
+        let str="Drive ready";
+        let str1="ready";
+        //original value
+        myfun('Original value='+str);
+        //substr method
+        myfun('substr of string='+str.substr(2,5));
+        //substring method
+        myfun('substring of string='+str.substring(2,4));
+        //replace method
+        myfun('repeate of string='+str.replace('Drive','course'));
+        //search method
+        myfun('search='+str.search('y'));
+        //toLocaleLowerCase method
+        myfun('toLocaleLowerCase method='+str.toLocaleLowerCase());
+        //toLocaleUpperCase method
+        myfun('toLocaleUpperCase method='+str.toLocaleUpperCase());
+        //indexOf method
+        myfun('Index of='+str.indexOf('y'));
+        //includes method
+        myfun('includes of String='+str.includes('Drive'));
+        //slice method
+        myfun('slice of string='+str.slice(0,5));
+        myfun('slice of string='+str.slice(-2));
+        //concat method
+        myfun('concat of string='+str.concat(str1));
+        //lastIndexOf method
+        myfun('lastIndexOf of srting='+str.lastIndexOf('ready'));
+        //charCodeAt method
+        myfun('charCodeAt of string='+str.charCodeAt(10));
+        //trim method
+        myfun('trim of string='+str.trim());
+        //charAt method
+        myfun('charAt of string='+str.charAt(9));
+        //valueOf method
+        myfun('valueOf of string='+str.valueOf());
+        //split method
+        myfun('split of string='+str.split(""));
+        //toString method
+        myfun('tostring of string='+str.toString());
+        //match method
+        myfun('match method='+str.match(str1));
+    </script>
+</body>
+</html>

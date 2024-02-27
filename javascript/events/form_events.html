@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Events</title>
+</head>
+<body>
+    <form id="my_form">
+        <label>Name</label>
+        <input type="text" id="fn" onchange="f1(this,value)"><br>
+        <label>select college</label>
+        <select style="width: 300px; height: 30px;" onchange="f2(this.value)">
+        <option>-- Select College --</option>
+        <option>AEC</option>
+        <option>ACET</option>
+        <option>ACOE</option>
+    </select>
+    <p id="pid"></p>
+    <input type="button" onclick="submitbtn()" value="submitform">
+    <input type="button" onclick="resetbtn()" value="reset">
+    </form>
+    <script>
+        function submitbtn(){
+            document.getElementById('my_form').submit();
+        }
+        function resetbtn(){
+            document.getElementById('my_form').reset();
+        }
+        function f1(){
+            let e=document.getElementById('fn');
+            e.value=e.value.toUpperCase();
+        }
+        function f2(clg){
+            document.getElementById('pid').innerText=clg;
+        }
+    </script>
+</body>
+</html>

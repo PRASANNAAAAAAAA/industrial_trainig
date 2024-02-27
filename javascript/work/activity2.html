@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JS biggest table task</title>
+<link rel="stylesheet" href="/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+<style>
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.highlight {
+  background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<h2>Product Details</h2>
+
+<table id="myTable">
+  <tr>
+    <th>Product ID</th>
+    <th>Name</th>
+    <th>Price</th>
+    <th>Actions</th>
+  </tr>
+  <!-- Placeholder rows -->
+  <tr>
+    <td><input type="text" value="123456"></td>
+    <td><input type="text" value="Hari"></td>
+    <td><input type="text" value="1111"></td>
+    <td><button class="btn btn-warning " onclick="editRow(this)">Edit </button><button class="btn btn-danger" onclick="confirmDelete(this)">Delete</button></td>
+  </tr>
+  <tr>
+    <td><input type="text" value="789645"></td>
+    <td><input type="text" value="Ram"></td>
+    <td><input type="text" value="2222"></td>
+    <td><button class="btn btn-warning " onclick="editRow(this)">Edit </button><button class="btn btn-danger" onclick="confirmDelete(this)">Delete</button></td>
+  </tr>
+  <tr>
+    <td><input type="text" value="654321"></td>
+    <td><input type="text" value="Durga"></td>
+    <td><input type="text" value="3333"></td>
+    <td><button class="btn btn-warning" onclick="editRow(this)">Edit</button><button class="btn btn-danger" onclick="confirmDelete(this)">Delete</button></td>
+  </tr>
+  <tr>
+    <td><input type="text" value="789012"></td>
+    <td><input type="text" value="Susuu"></td>
+    <td><input type="text" value="4444"></td>
+    <td><button class="btn btn-warning" onclick="editRow(this)">Edit</button><button class="btn btn-danger" onclick="confirmDelete(this)">Delete</button></td>
+  </tr>
+</table>
+
+<br>
+
+<button class="btn btn-primary" onclick="addRow()">Add New</button>
+
+<script>
+function addRow() {
+  var table = document.getElementById("myTable");
+  var row = table.insertRow(-1);
+  for (let i = 0; i < 3; i++) {
+    var cell = row.insertCell(i);
+    cell.innerHTML = "<input type='text'>";
+  }
+  var actionCell = row.insertCell(3);
+  actionCell.innerHTML = "<button onclick='editRow(this)'>Edit</button><button onclick='confirmDelete(this)'>Delete</button>";
+}
+
+function editRow(button) {
+  var row = button.parentNode.parentNode;
+  var cells = row.getElementsByTagName("td");
+  for (var i = 0; i < cells.length - 1; i++) {
+    cells[i].classList.toggle("highlight");
+  }
+}
+
+function confirmDelete(button) {
+  var row = button.parentNode.parentNode;
+  var confirmation = confirm("Are you sure you want to delete this row?");
+  if (confirmation) {
+    deleteRow(row);
+  }
+}
+
+function deleteRow(row) {
+  row.parentNode.removeChild(row);
+}
+</script>
+
+</body>
+</html>
