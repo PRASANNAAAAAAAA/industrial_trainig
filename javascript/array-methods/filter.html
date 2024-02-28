@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter function</title>
+</head>
+<body>
+    <center><h1>Filter function in array methods<hr></h1></center>
+    <script>
+        let num=[3,4,6,5,23,65,78,44];
+        console.log(num)
+        //arrow function
+        let even=num.filter((ele,i)=>{
+            return ele%2==0;
+        })
+        console.log('even='+even)
+        let odd=num.filter((ele,i)=>{
+            return ele%2!=0;
+        })
+        console.log('odd='+odd)
+        //anonymous function
+        let e=num.filter(function(ele,i){
+            return ele%2==0;
+        })
+        console.log('even='+e)
+        let o=num.filter(function(ele,i){
+            return ele%2!=0;
+        })
+        console.log('odd='+o)
+        //normal function
+        let v=num.filter(function myfun(ele,i){
+            return ele%2==0;
+        })
+        console.log('even='+v)
+        let p=num.filter(function myfun(ele,i){
+            return ele%2!=0;
+        })
+        console.log('odd='+p)
+    </script>
+</body>
+</html>
