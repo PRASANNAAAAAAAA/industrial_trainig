@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reduce function</title>
+</head>
+<body>
+    <center><h1>Reduce function in array methods<hr></h1></center>
+    <script>
+        let num=[7,34,35,90];
+        //syntax=>reduce(function(accumulater,ele,index,arr){},default value of accumulator)
+        //to find sum of array
+        let sum=num.reduce(function(acc,ele){
+            return acc+ele;
+        },0);
+        console.log(sum)
+        //to find max value
+        let max=num.reduce((acc,ele)=>{
+            if (acc>ele){
+                return acc;
+            }
+            else{
+                return ele;
+            }
+        },num[0]);
+        console.log(max)
+    </script>
+</body>
+</html>
