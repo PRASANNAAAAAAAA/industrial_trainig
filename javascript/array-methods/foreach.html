@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forEach function</title>
+</head>
+<body>
+    <center><h1>forEach function in array methods<hr></h1></center>
+    <script>
+        let salaries=[40000,25000,30000,90000];
+        console.log(salaries)
+        //arrow function
+        salaries.forEach((ele,index)=>{
+            let hike=ele/10;
+            console.log(hike);
+            salaries[index]=ele+hike;
+        })
+        console.table(salaries);
+        //anonymous function
+        let salary=[40000,25000,30000,90000];
+        salary.forEach(function(a,b,c){
+            console.log('amount is '+a);
+            console.log('index is '+b);
+            console.log('array is '+c);
+            let h=a/10;
+            console.log(h);
+            salary[b]=a+h;
+        })
+        console.table(salary);
+    </script>
+</body>
+</html>

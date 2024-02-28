@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+</head>
+<body>
+    <center><h2>Array methods in JS</h2><hr></center>
+    <ol>
+        <li>push</li>
+        <li>pop</li>
+        <li>unshift</li>
+        <li>shift</li>
+        <li>concat</li>
+        <li>slice</li>
+        <li>splice</li>
+        <li>indexOf</li>
+        <li>sort</li>
+    </ol>
+    <script>
+        let branch=['cme','ccn','ece'];
+        console.log(branch);
+        //push adds element at ending
+        branch.push('eee');
+        console.log(branch);
+        //pop removes element at ending
+        branch.pop('');
+        console.log(branch);
+        //unshift adds element at starting
+        branch.unshift('ece');
+        console.log(branch);
+        //shift removes element at starting
+        branch.shift();
+        console.log(branch);
+        //concat add two arrays
+        let var1=['ram','sita','hanuman','lakshman'];
+        let var2=['krishn','radha','rukmini'];
+        let c=var1.concat(var2);
+        console.log(c);
+        //slice splits array into two or more
+        let d=c.slice(2,5);
+        console.log(d)
+        //splice add, remove and splits elements from an array
+        c.splice(2,3,'balaram','revathi','ayan');
+        console.log(c)
+        //indexof shows element in a particular position
+         let b=branch.indexOf('ece');
+        console.log(b)
+        //sort sorts the array
+        c.sort();
+        console.log(c);
+    </script>
+</body>
+</html>
