@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find method</title>
+</head>
+<body>
+    <center><h1>Find method in array methods<hr></h1></center>
+    <script>
+        let courses=['html','css','bootstrap','js'];
+        console.log(courses)
+        //arrow function
+        let f=courses.find((a,b)=>{
+            return a.startsWith('c');
+        })
+        console.log(f)
+        //anonymous function
+        let i=courses.find(function(a,b){
+            return a.endsWith('p');
+        })
+        console.log(i)
+        //normal function
+        let n=courses.find(function myfun(a,b){
+            return a.endsWith('s');
+            //it will only print css because once codition satisfies it will exit from iteration
+        })
+        console.log(n)
+    </script>
+</body>
+</html>

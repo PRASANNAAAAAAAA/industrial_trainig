@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some method</title>
+</head>
+<body>
+    <center><h1>Some method in array methods<hr></h1></center>
+    <script>
+        let name=['ravi','ram','raghav','roopa','raavi'];
+        console.log(name)
+        //arrow function
+        let s=name.some((a,b)=>{
+            return a=='ram';
+            //if the value is present in array it will return true otherwise false
+        })
+        console.log(s)
+        //anonymous function
+        let o=name.some(function(a,b){
+            return a=='radha';
+        })
+        console.log(o)
+         //named function
+         let m=name.some(function myfun(a,b){
+            return a=='raavi';
+        })
+        console.log(m)
+    </script>
+</body>
+</html>

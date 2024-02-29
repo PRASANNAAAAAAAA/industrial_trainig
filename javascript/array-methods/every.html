@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Every method</title>
+</head>
+<body>
+    <center><h1>Every method in array methods<hr></h1></center>
+    <script>
+        var marks=[50,89,56,34,99,10]
+        console.log(marks)
+        //arrow function
+        var result=marks.every((score)=>{
+            console.log(score)
+            return score>35;
+        })
+        console.log(result)
+         //anonymous function
+         var marks=[45,67,78,87]
+         console.log(marks)
+         var result=marks.every(function(score){
+            console.log(score)
+            return score>35;
+        })
+        console.log(result)
+        //named function
+        var marks=[14,45,67,78,87,10]
+         console.log(marks)
+         var result=marks.every(function myfun(score){
+            console.log(score)
+            return score>35;
+        })
+        console.log(result)
+    </script>
+</body>
+</html>
