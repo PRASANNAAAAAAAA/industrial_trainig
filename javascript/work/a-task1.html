@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array task</title>
+</head>
+<body>
+    <center><h1>Array of objects<hr></h1></center>
+    <script>
+        var arr=[
+            {
+                name:'prasanna',
+                rollno:16,
+                college:'aec'
+            },
+            {
+                name:'harika',
+                rollno:2,
+                college:'aec'
+            },
+            {
+                name:'likhitha',
+                rollno:41,
+                college:'acet'
+            },
+            {
+                name:'hari',
+                rollno:20,
+                college:'acet'
+            },
+            {
+                name:'devi',
+                rollno:30,
+                college:'acoe'
+            },
+            {
+                name:'jaya',
+                rollno:26,
+                college:'acoe'
+            },
+            {
+                name:'likhi',
+                rollno:61,
+                college:'acoe'
+            }
+        ]
+        var a=arr.filter((b,c)=>{
+            return b.college=='acoe'
+        })
+        for(i=0;i<=a.length;i++){
+           document.write('<b><u>record'+(i+1)+'</b></u><br><br>name='+a[i].name+'<br><br>rollno='+a[i].rollno+'<br><br>college='+a[i].college+'<br><br>')
+        }
+    </script>
+</body>
+</html>

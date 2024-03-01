@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array task</title>
+</head>
+<body>
+    <center><h1>Array of objects<hr></h1></center>
+    <table id="myTable" border="2px solid">
+        <tr>
+              <th>Name</th>
+              <th>Roll-no</th>
+              <th>College</th>
+        </tr>
+      </table>
+    <script>
+        var arr=[
+            {
+                name:'prasanna',
+                rollno:16,
+                college:'aec'
+            },
+            {
+                name:'harika',
+                rollno:2,
+                college:'aec'
+            },
+            {
+                name:'likhitha',
+                rollno:41,
+                college:'acet'
+            },
+            {
+                name:'hari',
+                rollno:20,
+                college:'acet'
+            },
+            {
+                name:'devi',
+                rollno:30,
+                college:'acoe'
+            },
+            {
+                name:'jaya',
+                rollno:26,
+                college:'acoe'
+            },
+            {
+                name:'likhi',
+                rollno:61,
+                college:'acoe'
+            }
+        ]
+        var a=arr.filter((b,c)=>{
+            return b.college=='acoe'
+        })
+        var table = document.getElementById("myTable");
+        for (i=0;i<a.length;i++) {
+        var row = table.insertRow(i+1);
+        var cell1 = row.insertCell(0);
+        var cell2 = row.insertCell(1);
+        var cell3 = row.insertCell(2);
+        cell1.innerHTML = a[i].name;
+        cell2.innerHTML = a[i].rollno;
+        cell3.innerHTML = a[i].college;
+        }
+    </script>
+</body>
+</html>

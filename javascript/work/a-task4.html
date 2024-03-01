@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array  task</title>
+</head>
+<body>
+    <input type="text" id="id_input" placeholder="Enter starting letter" onkeypress="get(this.value)">
+    <button onclick="button_func()">Find</button>
+    <p id="p_id"></p>
+    <script>
+        let arr=['prasanna','harika','likhitha','likhi']
+        function button_func(){
+            let var1=document.getElementById("id_input").value;
+            let find_name=arr.find(function(ele,ind){
+                return ele.startsWith(var1)
+        })
+        console.log(find_name)
+            document.getElementById("p_id").innerHTML=find_name
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array task</title>
+</head>
+<body>
+    <input type="text" id="id_input" placeholder="Enter email" onkeypress="get(this.value)">
+    <button onclick="bu_fun()">Click</button>
+    <p id="p_id"></p>
+    <script>
+        function bu_fun(){
+            let var1=document.getElementById("id_input").value;
+            let emails=['prasanna@gmail.com','likhitha@gmail.com','harika@gmail.com']
+            let email_check=emails.some(check)
+            function check(email,index,arr){
+                return email==var1;
+            }
+            console.log(email_check)
+            if(email_check==true)
+            {
+                    document.getElementById("p_id").innerHTML="Already Registered";
+                    document.body.style.color="green";
+                }
+                else{
+                    document.getElementById("p_id").innerHTML="Not Registered";
+                    document.body.style.color="red";
+            }
+        }
+    </script>
+</body>
+</html>
