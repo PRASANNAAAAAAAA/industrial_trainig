@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 8</title>
+  <style>
+    #i {
+		width: 200px;
+		margin: 40px;
+    }
+    #d{
+      padding:20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="d">
+		<h1>Hello JavaScript!</h1>
+		<img id="i" src="../../capsstone-project/images/bulboff.png" alt="Blub">
+		<button id="b" type="button" onclick="changeBulbImage()">Bulb ON/OFF</button>	
+	</div>
+  <script>
+    var state = 0;
+		function changeBulbImage() {
+			if (state == 1) {
+				document.getElementById("i").src="../../capsstone-project/images/bulboff.png";
+				state = 0;
+			} else {
+				document.getElementById("i").src="../../capsstone-project/images/bulbon.png";
+				state = 1;
+			}
+		}
+  </script>
+</body>
+</html>
