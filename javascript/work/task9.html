@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task9</title>
+     <style>
+        #a{
+            height: 530px;
+            width: 425px;
+            border: 2px solid black;
+            margin-left: 530px;
+            margin-top: 50px;
+        }
+        #b{
+            height: 100px;
+            width: 310px;
+            margin: 5px;
+            float: left;
+            font-size:35px;
+        }
+        #c{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            color: white;
+            text-align: center;
+            float: left;
+            font-size:35px;
+        }
+    </style>
+</head>
+<body>
+<center><h1>CALCULATOR<hr></h1></center>
+<div id="a">
+    <input type="text" id="b">
+    <input type="button" id="c" style=" margin:5px 5px 5px 0px" value="c" onclick="clr()">
+    <input type="button" id="c" style=" margin:0px 5px 5px 5px" value="1" onclick="my('1')">
+    <input type="button" id="c" style=" margin:0px 5px 5px 0px" value="2" onclick="my('2')">
+    <input type="button" id="c" style=" margin:0px 5px 5px 0px" value="3" onclick="my('3')">
+    <input type="button" id="c" style=" margin:0px 5px 5px 0px" value="/" onclick="my('/')">
+    <input type="button" id="c" style=" margin:0px 5px 5px 5px" value="4" onclick="my('4')">
+    <input type="button" id="c" style=" margin:0px 5px 5px 0px" value="5" onclick="my('5')">
+    <input type="button" id="c" style=" margin:0px 5px 5px 0px" value="6" onclick="my('6')">
+    <input type="button" id="c" style=" margin:0px 5px 5px 0px" value="*" onclick="my('*')">
+    <input type="button" id="c" style=" margin:0px 5px 5px 5px" value="7" onclick="my('7')">
+    <input type="button" id="c" style=" margin:0px 5px 5px 0px" value="8" onclick="my('8')">
+    <input type="button" id="c" style=" margin:0px 5px 5px 0px" value="9" onclick="my('9')">
+    <input type="button" id="c" style=" margin:0px 5px 5px 0px" value="-" onclick="my('-')">
+    <input type="button" id="c" style=" margin:0px 5px 5px 5px" value="0" onclick="my('0')">
+    <input type="button" id="c" style=" margin:0px 5px 5px 0px" value="." onclick="my('.')">
+    <input type="button" id="c" style=" margin:0px 5px 5px 0px" value="=" onclick="result()">
+    <input type="button" id="c" style=" margin:0px 5px 5px 0px" value="+" onclick="my('+')">
+</div>
+<script>
+    function my(a){
+        document.getElementById('b').value+=a;
+    }
+    function clr() { 
+		document.getElementById("b").value = ""; 
+	} 
+    function result() {
+		let x = document.getElementById("b").value;
+		document.getElementById("b").value =eval(x);
+	} 
+
+</script>
+</body>
+</html>
