@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task8</title>
+</head>
+<body>
+    <style>
+        .a{
+            height: 300px;
+            width: 300px;
+            border: 2px solid blue;
+        }
+        h1{
+            color: blue;
+        }
+        p{
+            color: brown;
+        }
+        #btn{
+            color: green;
+        }
+    </style>
+    <div class="a">
+        <h1>Guess the Number Game</h1>
+        <p>Guess a number between 1 and 10:</p>
+        <input type="number" id="inpt" onclick="get(this.value)">
+        <button onclick="myfun()" id="btn">Submit Guess</button>
+        <p id="p-id"></p>
+    </div>
+    <script>
+        function myfun(){
+            var1=document.getElementById("inpt").value;
+            x=Math.floor(Math.random()*10)
+            if(x==var1){
+                document.getElementById("p-id").innerHTML='congratulations';
+            }
+            else{
+                document.getElementById("p-id").innerHTML='sorry! you can try again';
+            }
+        }
+    </script>
+</body>
+</html>
