@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 13</title>
+  <style>
+    #i {
+		width: 200px;
+		margin: 40px;
+    }
+    #d{
+      padding:20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="d">
+		<h1>Hello JavaScript!</h1>
+		<img id="i" src="../../capsstone-project/images/balloon.png" alt="Ballon" onmouseover="changeballoon()">
+	</div>
+  <script>
+    var state = 0;
+		function changeballoon() {
+			if (state == 1) {
+				document.getElementById("i").src="../../capsstone-project/images/balloon.png";
+				state = 0;
+			} else {
+				document.getElementById("i").src="../../capsstone-project/images/Balloon explode.gif";
+				state = 1;
+			}
+		}
+  </script>
+</body>
+</html>
