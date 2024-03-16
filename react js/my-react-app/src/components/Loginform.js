@@ -4,7 +4,6 @@ const LoginForm = ({ onLogin }) => {
     const [password, setPassword] = useState('');
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Call the onLogin function passed from the parent component
         onLogin(username, password);
     };
   return (

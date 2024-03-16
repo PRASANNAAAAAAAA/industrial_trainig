@@ -50,9 +50,6 @@ import LoginForm from './components/Loginform';
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
   const handleLogin = (username, password) => {
-  // Your authentication logic goes here, e.g., calling an API
-  // For simplicity, let's pretend successful login for any username/password
-  setLoggedIn(true);
   };
   const handleLogout = () => {
     setLoggedIn(false);
@@ -61,7 +58,7 @@ function App() {
     <div className="App">
       {loggedIn ? (
         <div>
-          <h1>Welcome, User!</h1>
+          <h1>thank you !</h1>
           <button onClick={handleLogout}>Logout</button>
         </div>
       ) : (
