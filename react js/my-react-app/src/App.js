@@ -23,6 +23,9 @@
 // }
 
 // export default App;
+
+
+
 import React from 'react';
 import Home from './components/HomePage'
 import About from './components/AboutPage';
