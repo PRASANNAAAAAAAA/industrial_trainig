@@ -28,6 +28,7 @@ import Home from './components/HomePage'
 import About from './components/AboutPage';
 import Contact from './components/ContactPage';
 import './App.css';
+import './components/Style.css';
 function App() {
   return (   
     <div className="App">
