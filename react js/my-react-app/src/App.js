@@ -26,18 +26,47 @@
 
 
 
-import React from 'react';
-import Home from './components/HomePage'
-import About from './components/AboutPage';
-import Contact from './components/ContactPage';
-import './App.css';
-import './components/Style.css';
+// import React from 'react';
+// import Home from './components/HomePage'
+// import About from './components/AboutPage';
+// import Contact from './components/ContactPage';
+// import './App.css';
+// import './components/Style.css';
+// function App() {
+//   return (   
+//     <div className="App">
+//       <Home/>
+//       <About/>
+//       <Contact/>
+//     </div>
+//   );
+// }
+// export default App;
+
+
+
+import React, { useState } from 'react';
+import LoginForm from './components/Loginform';
 function App() {
-  return (   
+  const [loggedIn, setLoggedIn] = useState(false);
+  const handleLogin = (username, password) => {
+  // Your authentication logic goes here, e.g., calling an API
+  // For simplicity, let's pretend successful login for any username/password
+  setLoggedIn(true);
+  };
+  const handleLogout = () => {
+    setLoggedIn(false);
+  };
+  return (
     <div className="App">
-      <Home/>
-      <About/>
-      <Contact/>
+      {loggedIn ? (
+        <div>
+          <h1>Welcome, User!</h1>
+          <button onClick={handleLogout}>Logout</button>
+        </div>
+      ) : (
+        <LoginForm onLogin={handleLogin} />
+      )}
     </div>
   );
 }
